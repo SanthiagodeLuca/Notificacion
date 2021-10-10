@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    tools:context=".Busqueda">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo"
+        android:foregroundTint="@color/cardview_shadow_end_color"
+        tools:context=".Notificacion"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="volver"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="795dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="33dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.053"
+            app:srcCompat="@drawable/ic_baseline_west_24" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="284dp"
+            android:layout_height="59dp"
+            android:rotationY="181"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo"
+        android:foregroundTint="#FFFFFF"
+        tools:context=".Notificacion"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="volver"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.137"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.965" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="356dp"
+            android:layout_height="66dp"
+
+            android:backgroundTint="#120101"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.171">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 september"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="203dp"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="34dp"
+                android:layout_height="33dp"
+                android:background="@drawable/ic_baseline_calendar_today_24"
+                tools:layout_editor_absoluteX="306dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Button
+                android:id="@+id/home2"
+                android:layout_width="41dp"
+                android:layout_height="29dp"
+                android:background="@drawable/ic_home_24px"
+                tools:layout_editor_absoluteX="39dp"
+                tools:layout_editor_absoluteY="15dp" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="33dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="790dp" />
+
+        <SearchView
+            android:layout_width="352dp"
+            android:layout_height="52dp"
+            android:rotationY="181"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.609"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.086" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="155dp"
+            android:layout_height="28dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Notificaciones"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
